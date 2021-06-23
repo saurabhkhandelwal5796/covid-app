@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/covid-app/static/css/main.f9852c36.chunk.css",
+    "main.js": "/covid-app/static/js/main.5f640acc.chunk.js",
+    "main.js.map": "/covid-app/static/js/main.5f640acc.chunk.js.map",
+    "runtime-main.js": "/covid-app/static/js/runtime-main.d62ec0c6.js",
+    "runtime-main.js.map": "/covid-app/static/js/runtime-main.d62ec0c6.js.map",
+    "static/js/2.865db6b3.chunk.js": "/covid-app/static/js/2.865db6b3.chunk.js",
+    "static/js/2.865db6b3.chunk.js.map": "/covid-app/static/js/2.865db6b3.chunk.js.map",
+    "index.html": "/covid-app/index.html",
+    "static/css/main.f9852c36.chunk.css.map": "/covid-app/static/css/main.f9852c36.chunk.css.map",
+    "static/js/2.865db6b3.chunk.js.LICENSE.txt": "/covid-app/static/js/2.865db6b3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d62ec0c6.js",
+    "static/js/2.865db6b3.chunk.js",
+    "static/css/main.f9852c36.chunk.css",
+    "static/js/main.5f640acc.chunk.js"
+  ]
+}
