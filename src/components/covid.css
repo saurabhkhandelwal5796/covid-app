@@ -1,0 +1,141 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin:0;
+    /* background-color: #d2dbdd; */
+}
+
+
+
+/* h1,h2 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top:10px;
+} */
+.heading_style {
+    padding:30x 0;
+    text-align: center;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight:500;
+    color:#868686;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
+/* .card {
+    background-color:powderblue;
+    border:2px solid black;
+    float:left;
+    border-radius: 5px;
+    margin:10px 10px;
+    
+}
+
+.card:hover{
+    transform: scale(1.1) ;
+    transition-duration: 1s;
+} */
+.card{
+    margin:6%;
+    /* transition: all 0.4s cubic-bezier(0.175,0.885,0,1); */
+    background-color: #fff;
+    width:21.25%;
+    border-radius: 12px;
+    box-shadow: 0px 13px 10px -7px rgba(0,0,0,.1);
+    float:left;
+    transition: transform .5s;
+    background-color: cyan;
+ }
+ 
+ .card:hover {
+     box-shadow: 0px 30px 18px -8px rgba(0,0,0,.1);
+     transform : scale(1.05,1.05);
+ }
+
+ .color2 {
+     background-color: cornflowerblue;
+ }
+ .color3 {
+     background-color:crimson;
+ }
+ .color4 {
+     background-color:forestgreen;
+ }
+ .color5 {
+     background-color:gold;
+ }
+ .color6 {
+     background-color:lightcoral;
+ }
+
+.card__total{
+    /* text-shadow: 1px 1px 10px black; */
+}
+
+
+
+
+
+.card__back {
+    transform: rotateY(180deg) scale(1.1);
+    background-color: #141414;
+    display: flex;
+    flex-flow:column wrap ;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+
+.card__back span {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.card__name {
+    font-size:32px;
+    line-height: 0.9;
+    font-weight:700;
+}
+
+.card__name span {
+    font-size:14px;
+}
+
+.card__total{
+    font-size:100px;
+    margin:0 8px 0 0;
+    font-weight: 700 ;
+}
+
+
+.card__small {
+    font-size:80px;
+}
+
+@media (max-width:700px){
+    .card__total{
+        font-size: 70px;
+    }
+}
+
+@media (max-width:700px) {
+    .card {
+        width:100%;
+        height: 290px;
+        margin-right: 0;
+        float:none
+    }
+}
+
